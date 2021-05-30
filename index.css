@@ -1,0 +1,82 @@
+@font-face {
+	font-family: 'Fonarto';
+	font-style: normal;
+	font-weight: bold;
+	src: url(http://127.0.0.1:5500/assets/fonarto.ttf) format('truetype');
+}
+
+html,
+body {
+	font-size: large;
+	font-family: monospace;
+	margin: 0px;
+	background-color: #141516;
+	color: #dddddd;
+}
+
+header.header {
+	padding: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	border-bottom: 1px solid #242526;
+
+	text-align: center;
+}
+
+.logo {
+	font-family: 'Fonarto';
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+
+main.main {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.slide {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: minmax(200px, auto);
+
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #242526;
+}
+
+@media only screen and (max-width: 600px) {
+	.slide {
+		display: block;
+	}
+}
+
+.slide section {
+	padding: 1rem;
+	margin: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+	.slide section {
+		min-height: 6rem;
+
+		text-align: justify;
+	}
+}
+
+.title {
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
+.dl {
+	margin: 1rem;
+	text-align: center;
+}
+
+.dl-button-cover {
+	margin: 1rem;
+}
+
+.dl-button {
+	color: #eeeeee;
+}
