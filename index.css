@@ -32,10 +32,18 @@ a {
 	color: #dddddd;
 }
 
+nav.nav {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+
 .logo {
 	font-family: 'Fonarto';
 	font-weight: bold;
 	font-size: 2.5rem;
+	margin-bottom: 0.5rem;
 }
 
 main.main {
