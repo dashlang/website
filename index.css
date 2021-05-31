@@ -1,3 +1,8 @@
+/*
+TODO dumbass make this a global, index, donate, and contact.css file
+TODO Gotta get those sweet SEO points
+*/
+
 @font-face {
 	font-family: 'Fonarto';
 	font-style: normal;
@@ -23,6 +28,10 @@ header.header {
 	text-align: center;
 }
 
+a {
+	color: #dddddd;
+}
+
 .logo {
 	font-family: 'Fonarto';
 	font-weight: bold;
@@ -30,6 +39,8 @@ header.header {
 }
 
 main.main {
+	text-align: center;
+
 	margin-left: 1rem;
 	margin-right: 1rem;
 }
@@ -53,13 +64,12 @@ main.main {
 .slide section {
 	padding: 1rem;
 	margin: 1rem;
+	text-align: justify;
 }
 
 @media only screen and (max-width: 600px) {
 	.slide section {
 		min-height: 6rem;
-
-		text-align: justify;
 	}
 }
 
@@ -79,4 +89,15 @@ main.main {
 
 .dl-button {
 	color: #eeeeee;
+}
+
+.donate,
+.contact {
+	margin: 1rem;
+}
+
+.donate-button,
+.contact-button {
+	margin: 1rem;
+	padding: 2rem;
 }
