@@ -42,6 +42,7 @@ nav.nav {
 .logo {
 	font-family: 'Fonarto';
 	font-weight: bold;
+	text-decoration: none;
 	font-size: 2.5rem;
 	margin-bottom: 0.5rem;
 }
